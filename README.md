@@ -34,3 +34,36 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Movie Search App
+
+## Features
+
+- Search for movies by title
+- Bookmark movies
+- Review bookmarked movies
+- Mark bookmarked movies as “watched”
+- Work on desktop and mobile browsers
+- Allow removing movies from saved section
+
+## APIs Used
+
+- [RapidAPI Movies Endpoint](https://rapidapi.com/rapidapi/api/movie-database-alternative)
+
+## Technologies Used
+
+- NextJS
+- Chakra UI
+- Local Storage
+
+## Deployment
+
+This app is deployed on [Vercel](https://vercel.com/docs) using the hobby plan.
+
+## Future Improvements
+
+- Implement authentication and user accounts to allow multiple users to save their own bookmarks.
+- Use a real database to store bookmarks instead of local storage.
+- Use a different movie database API with more features and details.
+- Allow users to rate movies and sort by rating.
+- Implement additional search filters (e.g. by genre, release year, etc.).
