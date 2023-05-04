@@ -11,7 +11,7 @@ import {
 import { ChevronUpIcon, ChevronDownIcon } from "@chakra-ui/icons";
 import Link from "next/link";
 import { Search2Icon } from "@chakra-ui/icons";
-import MovieList from "./movieList";
+import MovieList from "./MovieList";
 
 export default function SearchBar() {
   const [movieTitle, setMovieTitle] = useState("");
