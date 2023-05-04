@@ -1,5 +1,5 @@
 "use client"
-import SearchBar from "@/components/SearchBar"
+import SearchBar from "@/app/components/SearchBar"
 import { Box, Text } from "@chakra-ui/react"
 import { SunIcon } from "@chakra-ui/icons";
 

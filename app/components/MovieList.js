@@ -4,7 +4,7 @@ import { StarIcon, CheckIcon } from "@chakra-ui/icons";
 
 const LOCAL_STORAGE_KEY = 'moviesInfoData';
 
-function MovieList(props) {
+export default function MovieList(props) {
     const {
         Title,
         Year,
@@ -100,5 +100,3 @@ function MovieList(props) {
         </Box>
     )
 }
-
-export default MovieList

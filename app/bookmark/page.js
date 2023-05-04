@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react'
-import MovieList from '@/components/movieList'
+import MovieList from '../components/movieList'
 import Link from 'next/link'
 import { Box, Button, Grid, Text } from "@chakra-ui/react"
 import { SunIcon } from "@chakra-ui/icons";
