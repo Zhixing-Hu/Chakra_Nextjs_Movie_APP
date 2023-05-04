@@ -82,8 +82,9 @@ export default function SearchBar() {
       <InputGroup borderRadius={5} size="sm">
         <InputLeftElement
           pointerEvents="none"
-          children={<Search2Icon color="gray.600" />}
-        />
+        >
+          {<Search2Icon color="gray.600" />}
+        </InputLeftElement>
         <Input
           type="text"
           placeholder="Search Movies..."
